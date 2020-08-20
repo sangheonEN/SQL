@@ -1,0 +1,10 @@
+C:\Git_Hub\SQL\SQL_Test_20200820\SQL_Test_20200820\bin\Debug\SQL_Test_20200820.exe.config
+C:\Git_Hub\SQL\SQL_Test_20200820\SQL_Test_20200820\bin\Debug\SQL_Test_20200820.exe
+C:\Git_Hub\SQL\SQL_Test_20200820\SQL_Test_20200820\bin\Debug\SQL_Test_20200820.pdb
+C:\Git_Hub\SQL\SQL_Test_20200820\SQL_Test_20200820\obj\Debug\SQL_Test_20200820.csprojAssemblyReference.cache
+C:\Git_Hub\SQL\SQL_Test_20200820\SQL_Test_20200820\obj\Debug\SQL_Test_20200820.Form1.resources
+C:\Git_Hub\SQL\SQL_Test_20200820\SQL_Test_20200820\obj\Debug\SQL_Test_20200820.Properties.Resources.resources
+C:\Git_Hub\SQL\SQL_Test_20200820\SQL_Test_20200820\obj\Debug\SQL_Test_20200820.csproj.GenerateResource.cache
+C:\Git_Hub\SQL\SQL_Test_20200820\SQL_Test_20200820\obj\Debug\SQL_Test_20200820.csproj.CoreCompileInputs.cache
+C:\Git_Hub\SQL\SQL_Test_20200820\SQL_Test_20200820\obj\Debug\SQL_Test_20200820.exe
+C:\Git_Hub\SQL\SQL_Test_20200820\SQL_Test_20200820\obj\Debug\SQL_Test_20200820.pdb
