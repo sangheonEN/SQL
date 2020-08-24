@@ -28,7 +28,7 @@ namespace _20200824
             conn.Open(); // Open() : 데이터베이스를 열어줘야 다른 사람이 못씀
             SqlCommand cmd = new SqlCommand("select * from a", conn); // sql에서 명령어를 쓴다. select 명령어를 통해 a테이블을 cmd에 담아 놓음
             SqlDataAdapter sda = new SqlDataAdapter(cmd); //SqlDataAdapter는 가져온 데이타를 메모리상의 데이타 객체인 DataSet에 할당한다.
-            DataSet ds = new DataSet(); //DataSet ds = new DataSet();             설명: dataset 구성요소는 Table이다.   ds라는 변수에 SqlCommand에서 select한 모든 Table을 저장하고
+            DataSet ds = new DataSet(); //DataSet ds = new DataSet();   설명: dataset 구성요소는 Table이다.   ds라는 변수에 SqlCommand에서 select한 모든 Table을 저장하고
 
             sda.Fill(ds); // SqlDataAdapter에 저장된 select 명령 내용을 가져와 Fill(Dataset인스턴스); 메서드를 사용하여 DataSet의 인스턴스에 채워준다.
 

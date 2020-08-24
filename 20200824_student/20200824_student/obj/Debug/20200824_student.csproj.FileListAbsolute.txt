@@ -1,0 +1,10 @@
+C:\Git_Hub\SQL\20200824_student\20200824_student\bin\Debug\20200824_student.exe.config
+C:\Git_Hub\SQL\20200824_student\20200824_student\bin\Debug\20200824_student.exe
+C:\Git_Hub\SQL\20200824_student\20200824_student\bin\Debug\20200824_student.pdb
+C:\Git_Hub\SQL\20200824_student\20200824_student\obj\Debug\20200824_student.csprojAssemblyReference.cache
+C:\Git_Hub\SQL\20200824_student\20200824_student\obj\Debug\_20200824_student.Form1.resources
+C:\Git_Hub\SQL\20200824_student\20200824_student\obj\Debug\_20200824_student.Properties.Resources.resources
+C:\Git_Hub\SQL\20200824_student\20200824_student\obj\Debug\20200824_student.csproj.GenerateResource.cache
+C:\Git_Hub\SQL\20200824_student\20200824_student\obj\Debug\20200824_student.csproj.CoreCompileInputs.cache
+C:\Git_Hub\SQL\20200824_student\20200824_student\obj\Debug\20200824_student.exe
+C:\Git_Hub\SQL\20200824_student\20200824_student\obj\Debug\20200824_student.pdb
