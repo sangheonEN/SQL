@@ -26,6 +26,7 @@ namespace SQL_Test_20200820
             InitializeComponent();
             this.a = new A();
             this.b = new B();
+
             a.DoA();
         }
 
