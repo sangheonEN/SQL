@@ -28,9 +28,9 @@ namespace _20200824
             conn.Open(); // Open() : 데이터베이스를 열어줘야 다른 사람이 못씀
             SqlCommand cmd = new SqlCommand("select * from a", conn); // sql에서 명령어를 쓴다. select 명령어를 통해 a테이블을 cmd에 담아 놓음
             SqlDataAdapter sda = new SqlDataAdapter(cmd); //SqlDataAdapter는 가져온 데이타를 메모리상의 데이타 객체인 DataSet에 할당한다.
-            DataSet ds = new DataSet();
+            DataSet ds = new DataSet(); //DataSet ds = new DataSet();             설명: dataset 구성요소는 Table이다.   ds라는 변수에 SqlCommand에서 select한 모든 Table을 저장하고
 
-            sda.Fill(ds); // 오버로드 : 같은 행의 
+            sda.Fill(ds); // SqlDataAdapter에 저장된 select 명령 내용을 가져와 Fill(Dataset인스턴스); 메서드를 사용하여 DataSet의 인스턴스에 채워준다.
 
             dataGridView1.DataSource = ds.Tables[0];
 
@@ -55,10 +55,10 @@ namespace _20200824
             conn.Open();
 
             // sql의 select 명령어를 사용하기 위해 command, dataadapter, dataset, Fill을 사용해야함 
-            SqlCommand cmd = new SqlCommand("select max(idx)+1 as idx from stduent;select * from a", conn);
-            SqlDataAdapter sda = new SqlDataAdapter(cmd);  // SqlCommand 명령을 한 변수 cmd를 사용하기 위해
+            SqlCommand cmd = new SqlCommand("select max(idx)+1 as idx from student;select * from a", conn);
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);  // SqlCommand 명령에서 select된 내용을 인스턴스에 저장한다.
             DataSet ds = new DataSet();        // dataset 구성요소 : Table, ds라는 변수에 SqlCommand에서 select한 Table을 저장하고
-            sda.Fill(ds);
+            sda.Fill(ds);                      // SqlDataAdapter에 저장된 select 명령 내용을 가져와 Fill(Dataset인스턴스); 메서드를 사용하여 DataSet의 인스턴스에 채워준다.   
 
             DataTable dt = ds.Tables[0];       // DataTable : Table에 접근하여 각 Table의 행에 접근할 수 있음.
             int idx = 0;
@@ -74,14 +74,14 @@ namespace _20200824
                                 "values" +
                                 "(@idx, @name, @age, @grade); ", conn);     //sql에서 구문(명령어) 'insert into 테이블명' 사용 
 
-            cmd.Parameters.AddWithValue("@idx", idx);
+            cmd.Parameters.AddWithValue("@idx", idx);                                          // Parameters.AddWithValue SQLCommand에 저장되는 데이터 정보를 입력받아 저장함
             cmd.Parameters.AddWithValue("@name", text_name.Text);
             cmd.Parameters.AddWithValue("@age", text_age.Text);
             cmd.Parameters.AddWithValue("@grade", comboBox_grade.SelectedItem.ToString());
 
-            cmd.ExecuteNonQuery();    // 
+            cmd.ExecuteNonQuery();    // ExecuteNonQuery 데이터 베이스에 변경된 테이블의 행이 있으면 그 변경된 행의 수를 출력시킴
 
-            conn.Close();
+            conn.Close();             // 데이터 베이스 연결을 끊음
 
 
             // select max(idx)+1 사용
