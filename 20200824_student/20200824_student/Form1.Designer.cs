@@ -38,6 +38,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.button_sql_select_insert = new System.Windows.Forms.Button();
+            this.button_update = new System.Windows.Forms.Button();
+            this.button_delete = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -134,11 +136,33 @@
             this.button_sql_select_insert.UseVisualStyleBackColor = true;
             this.button_sql_select_insert.Click += new System.EventHandler(this.button_sql_select_insert_Click);
             // 
+            // button_update
+            // 
+            this.button_update.Location = new System.Drawing.Point(542, 278);
+            this.button_update.Name = "button_update";
+            this.button_update.Size = new System.Drawing.Size(155, 51);
+            this.button_update.TabIndex = 10;
+            this.button_update.Text = "update";
+            this.button_update.UseVisualStyleBackColor = true;
+            this.button_update.Click += new System.EventHandler(this.button_update_Click);
+            // 
+            // button_delete
+            // 
+            this.button_delete.Location = new System.Drawing.Point(542, 345);
+            this.button_delete.Name = "button_delete";
+            this.button_delete.Size = new System.Drawing.Size(155, 51);
+            this.button_delete.TabIndex = 11;
+            this.button_delete.Text = "delete";
+            this.button_delete.UseVisualStyleBackColor = true;
+            this.button_delete.Click += new System.EventHandler(this.button_delete_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button_delete);
+            this.Controls.Add(this.button_update);
             this.Controls.Add(this.button_sql_select_insert);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -169,6 +193,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button_sql_select_insert;
+        private System.Windows.Forms.Button button_update;
+        private System.Windows.Forms.Button button_delete;
     }
 }
 
