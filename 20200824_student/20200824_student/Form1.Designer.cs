@@ -45,10 +45,13 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 25);
+            this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 23;
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(493, 290);
             this.dataGridView1.TabIndex = 0;
             // 
@@ -60,7 +63,7 @@
             this.button_select.TabIndex = 1;
             this.button_select.Text = "select_gridview에서나오게";
             this.button_select.UseVisualStyleBackColor = true;
-            this.button_select.Click += new System.EventHandler(this.button1_Click);
+            this.button_select.Click += new System.EventHandler(this.button_select_Click);
             // 
             // button_insert
             // 
