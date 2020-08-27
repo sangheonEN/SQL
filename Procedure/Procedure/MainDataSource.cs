@@ -10,7 +10,7 @@ namespace Procedure
 {
     class MainDataSource
     {
-        public DataTable doSelectStudent(string name)
+        public DataTable doSelectStudent(string name = "") //parameter가 안들어오면 ""로 인식함.
         {
             SqlConnection conn = DataSource.GetSqlConnection();
             SqlCommand cmd = new SqlCommand("exec xp_student_select @name", conn);
@@ -42,6 +42,39 @@ namespace Procedure
             cmd.Parameters.AddWithValue("@age", age);
             cmd.Parameters.AddWithValue("@grade", grade);
 
+
+            cmd.ExecuteNonQuery();
+
+            DataSource.D_Close(conn);
+
+        }
+
+        public void doUpdateStudent(int idx, string name, int age, int grade)
+        {
+
+            SqlConnection conn = DataSource.GetSqlConnection();
+
+            SqlCommand cmd = new SqlCommand("exec xp_student_update @name, @age,@grade,@idx", conn);
+
+
+            cmd.Parameters.AddWithValue("@name", name);
+            cmd.Parameters.AddWithValue("@age", age);
+            cmd.Parameters.AddWithValue("@grade", grade);
+            cmd.Parameters.AddWithValue("@idx", idx);
+
+            cmd.ExecuteNonQuery();
+
+            DataSource.D_Close(conn);
+
+        }
+
+        public void doDeleteStudent(int idx)
+        {
+            SqlConnection conn = DataSource.GetSqlConnection();
+
+            SqlCommand cmd = new SqlCommand("exec xp_student_delete @idx", conn);
+
+            cmd.Parameters.AddWithValue("@idx", idx);
 
             cmd.ExecuteNonQuery();
 
