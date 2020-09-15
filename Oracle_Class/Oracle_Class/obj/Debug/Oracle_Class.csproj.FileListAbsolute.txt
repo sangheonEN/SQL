@@ -1,0 +1,11 @@
+C:\Git_Hub\SQL\Oracle_Class\Oracle_Class\bin\Debug\Oracle_Class.exe.config
+C:\Git_Hub\SQL\Oracle_Class\Oracle_Class\bin\Debug\Oracle_Class.exe
+C:\Git_Hub\SQL\Oracle_Class\Oracle_Class\bin\Debug\Oracle_Class.pdb
+C:\Git_Hub\SQL\Oracle_Class\Oracle_Class\obj\Debug\Oracle_Class.csprojAssemblyReference.cache
+C:\Git_Hub\SQL\Oracle_Class\Oracle_Class\obj\Debug\Oracle_Class.Properties.Resources.resources
+C:\Git_Hub\SQL\Oracle_Class\Oracle_Class\obj\Debug\Oracle_Class.csproj.GenerateResource.cache
+C:\Git_Hub\SQL\Oracle_Class\Oracle_Class\obj\Debug\Oracle_Class.csproj.CoreCompileInputs.cache
+C:\Git_Hub\SQL\Oracle_Class\Oracle_Class\obj\Debug\Oracle_Class.csproj.CopyComplete
+C:\Git_Hub\SQL\Oracle_Class\Oracle_Class\obj\Debug\Oracle_Class.exe
+C:\Git_Hub\SQL\Oracle_Class\Oracle_Class\obj\Debug\Oracle_Class.pdb
+C:\Git_Hub\SQL\Oracle_Class\Oracle_Class\bin\Debug\Oracle.ManagedDataAccess.dll
