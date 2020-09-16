@@ -15,9 +15,10 @@ namespace Oracle_Class.util
             Console.WriteLine("-------------------------------------");
             Console.WriteLine("1. 테이블 생성");
             Console.WriteLine("2. 테이블 삭제");
-            Console.WriteLine("3. 랜덤 생성 데이터 추가");
-            Console.WriteLine("4. 전체 데이터 보기");
-            Console.WriteLine("5. 프로그램 종료");
+            Console.WriteLine("3. 생성 데이터 추가");
+            Console.WriteLine("4. 랜덤 생성 데이터 추가");
+            Console.WriteLine("5. 전체 데이터 보기");
+            Console.WriteLine("6. 프로그램 종료");
             Console.WriteLine("-------------------------------------");
             Console.WriteLine("메뉴를 선택하세요.");
 

@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="DBA\MsSqlManager.cs" />
     <Compile Include="DBA\ODBM.cs" />
+    <Compile Include="DBA\Product_List.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

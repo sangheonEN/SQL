@@ -47,9 +47,16 @@ namespace Oracle_Class
                         ODBM.getInstance().insertDB();
                         break;
                     case 4:
-                        ODBM.getInstance().selectDB();
+                        RandomData rd = new RandomData();
+                        for(int i = 0; i < 100; i++)
+                        {
+                            ODBM.getInstance().insertDBRandom(rd.getProductList());
+                        }
                         break;
                     case 5:
+                        ODBM.getInstance().selectDB();
+                        break;
+                    case 6:
                         Environment.Exit(0);
                         break;
                     default:

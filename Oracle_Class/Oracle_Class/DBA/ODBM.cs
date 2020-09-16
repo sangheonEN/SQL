@@ -176,28 +176,28 @@ namespace Oracle_Class.DBA
             }
         }
 
-        public void insertDBRandom()
+        public void insertDBRandom(Product_List prod)            //매개변수가 있는 DB를 가지고 랜덤하게 숫자를 뽑아줌
         {
             try
             {
                 //Table 삭제
-                string query = "insert into smf values (" +
+                string query = string.Format("insert into smf values (" +
                                "seq_idx.nextval, " +
-                               "'2020년09월30일', " +
-                               "'자동차', " +
-                               "'30도', " +
-                               "'30%', " +
-                               "'K7', " +
-                               "'010-3234-1906')";
+                               "'{0}', " +
+                               "'{1}', " +
+                               "'{2}', " +
+                               "'{3}', " +
+                               "'{4}', " +
+                               "'{5}')", prod.Out_date, prod.Product, prod.Temp, prod.Humi, prod.P_name, prod.Tel);
                 cmd.Connection = conn;
                 cmd.CommandText = query;
                 cmd.ExecuteNonQuery();                // auto commit! 커밋을 자동으로 해줌
 
-                Console.WriteLine("데이터 추가 완료!");
+                Console.WriteLine("랜덤 데이터 추가 완료!");
             }
             catch (OracleException e)
             {
-                errorMessage("데이터 추가 오류 ", e);
+                errorMessage("랜덤 데이터 추가 오류 ", e);
             }
         }
 
@@ -252,7 +252,6 @@ namespace Oracle_Class.DBA
 
 
         }
-
 
         public void errorMessage(string msg, OracleException e)
         {
