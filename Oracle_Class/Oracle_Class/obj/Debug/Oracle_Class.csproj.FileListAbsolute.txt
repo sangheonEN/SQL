@@ -9,3 +9,7 @@ C:\Git_Hub\SQL\Oracle_Class\Oracle_Class\obj\Debug\Oracle_Class.csproj.CopyCompl
 C:\Git_Hub\SQL\Oracle_Class\Oracle_Class\obj\Debug\Oracle_Class.exe
 C:\Git_Hub\SQL\Oracle_Class\Oracle_Class\obj\Debug\Oracle_Class.pdb
 C:\Git_Hub\SQL\Oracle_Class\Oracle_Class\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Git_Hub\SQL\Oracle_Class\Oracle_Class\bin\Debug\CxFlatUI.dll
+C:\Git_Hub\SQL\Oracle_Class\Oracle_Class\bin\Debug\MaterialSkin.dll
+C:\Git_Hub\SQL\Oracle_Class\Oracle_Class\bin\Debug\SunnyUI.dll
+C:\Git_Hub\SQL\Oracle_Class\Oracle_Class\obj\Debug\Oracle_Class.Form1.resources
