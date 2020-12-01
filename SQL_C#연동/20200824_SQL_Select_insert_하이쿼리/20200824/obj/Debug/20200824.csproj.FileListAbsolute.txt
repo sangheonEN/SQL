@@ -1,0 +1,10 @@
+C:\Git_Hub\SQL\20200824\20200824\obj\Debug\20200824.csprojAssemblyReference.cache
+C:\Git_Hub\SQL\20200824\20200824\obj\Debug\_20200824.Form1.resources
+C:\Git_Hub\SQL\20200824\20200824\obj\Debug\_20200824.Properties.Resources.resources
+C:\Git_Hub\SQL\20200824\20200824\obj\Debug\20200824.csproj.GenerateResource.cache
+C:\Git_Hub\SQL\20200824\20200824\obj\Debug\20200824.csproj.CoreCompileInputs.cache
+C:\Git_Hub\SQL\20200824\20200824\bin\Debug\20200824.exe.config
+C:\Git_Hub\SQL\20200824\20200824\bin\Debug\20200824.exe
+C:\Git_Hub\SQL\20200824\20200824\bin\Debug\20200824.pdb
+C:\Git_Hub\SQL\20200824\20200824\obj\Debug\20200824.exe
+C:\Git_Hub\SQL\20200824\20200824\obj\Debug\20200824.pdb

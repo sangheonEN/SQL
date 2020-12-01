@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\select_insert_delete_update\select_insert_delete_update\bin\Debug\select_insert_delete_update.exe.config
+C:\Users\User\Desktop\select_insert_delete_update\select_insert_delete_update\bin\Debug\select_insert_delete_update.exe
+C:\Users\User\Desktop\select_insert_delete_update\select_insert_delete_update\bin\Debug\select_insert_delete_update.pdb
+C:\Users\User\Desktop\select_insert_delete_update\select_insert_delete_update\obj\Debug\select_insert_delete_update.csprojAssemblyReference.cache
+C:\Users\User\Desktop\select_insert_delete_update\select_insert_delete_update\obj\Debug\select_insert_delete_update.Form1.resources
+C:\Users\User\Desktop\select_insert_delete_update\select_insert_delete_update\obj\Debug\select_insert_delete_update.Properties.Resources.resources
+C:\Users\User\Desktop\select_insert_delete_update\select_insert_delete_update\obj\Debug\select_insert_delete_update.csproj.GenerateResource.cache
+C:\Users\User\Desktop\select_insert_delete_update\select_insert_delete_update\obj\Debug\select_insert_delete_update.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\select_insert_delete_update\select_insert_delete_update\obj\Debug\select_insert_delete_update.exe
+C:\Users\User\Desktop\select_insert_delete_update\select_insert_delete_update\obj\Debug\select_insert_delete_update.pdb

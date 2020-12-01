@@ -1,0 +1,50 @@
+USE [test_20200824]
+GO
+
+/****** Object:  Table [dbo].[stduent]    Script Date: 2020-08-24 오전 10:53:25 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[stduent](
+	[idx] [numeric](18, 0) NOT NULL,
+	[name] [varchar](50) NULL,
+	[age] [varchar](50) NULL,
+	[grade] [numeric](18, 0) NULL,
+ CONSTRAINT [PK_stduent] PRIMARY KEY CLUSTERED 
+(
+	[idx] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+
+select max(idx)+1 as idx from stduent; -- max(idx) 칼럼중의 제일 큰 값 as idx--> 별칭 짓기
+
+select * from stduent; -- max(idx) 칼럼중의 제일 큰 값 as idx--> 별칭 짓기
+
+delete from stduent where idx = 6;     -- 테이블안의 delete from 테이블명 where 칼럼명 = 칼럼 데이터 
+
+insert into stduent
+(idx, name, age, grade)
+values
+--(1, '이상헌', 27, 3),
+(2, '김하영', 25, 2),
+(3, '박순홍', 27, 3),
+(4, '남기경', 25, 3),
+(5, '박해광', 28, 4),
+(6, '김규태', 25, 2);
+
+
+-- 하이쿼리
+insert into stduent
+(idx, name, age, grade)
+values
+((select max(idx)+1 as idx from stduent),'',22,3);
+
+select max(idx)+1 as idx from stduent
+
+
+select max(idx)+1 as idx from stduent;
